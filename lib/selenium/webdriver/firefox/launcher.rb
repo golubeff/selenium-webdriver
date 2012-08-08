@@ -32,6 +32,10 @@ module Selenium
           socket_lock.locked do
             find_free_port
             create_profile
+            File.copy(
+              File.expand_path("#{WebDriver.root}/selenium/webdriver/firefox/extension/localstore.rdf"),
+              @profile_dir
+            )
             start_silent_and_wait
             start
             connect_until_stable

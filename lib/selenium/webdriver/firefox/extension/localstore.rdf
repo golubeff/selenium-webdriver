@@ -10,7 +10,7 @@
   </RDF:Description>
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
                    width="1280"
-                   height="2048"
+                   height="4096"
                    screenX="1"
                    screenY="1"
                    sizemode="normal" />

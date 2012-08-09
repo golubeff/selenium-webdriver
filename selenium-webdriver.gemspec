@@ -14,9 +14,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = "2.25.0"
   gem.dependencies  = [
-    { "multi_json"   : "~> 1.0"   },
-    { "rubyzip"      : ">= 0"     },
-    { "childprocess" : ">= 0.2.5" },
-    { "libwebsocket" : "~> 0.1.3" }
+    { "multi_json"   => "~> 1.0"   },
+    { "rubyzip"      => ">= 0"     },
+    { "childprocess" => ">= 0.2.5" },
+    { "libwebsocket" => "~> 0.1.3" }
   ]
 end

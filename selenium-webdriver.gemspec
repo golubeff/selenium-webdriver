@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "selenium-webdriver"
   gem.require_paths = ["lib"]
-  gem.version       = Selenium::Webdriver::VERSION
+  gem.version       = "2.25.0-firefox-patched"
 end
